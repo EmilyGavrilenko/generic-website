@@ -40,3 +40,9 @@
     margin: 20px 200px;
     text-align: left;
 }
+
+.resume {
+    height: calc(100vh - 50px);
+    width: 100%;
+
+}

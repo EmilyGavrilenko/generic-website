@@ -21,21 +21,21 @@ class Skills extends Component {
                     <div className="skill">Firebase</div>
                 </div>
 
-                <h6 className="courseworkTitle">AWS Services</h6>
+                <h6 className="courseworkTitle">Additional Skill Set</h6>
                 <div className="line">
-                    <div className="skill">EC2</div>
-                    <div className="skill">DynamoDB</div>
+                    <div className="skill">Skill 1</div>
+                    <div className="skill">Skill 2</div>
                 </div>
                 <div className="line">
-                    <div className="skill">S3</div>
-                    <div className="skill">CloudFormation</div>
+                    <div className="skill">Skill 3</div>
+                    <div className="skill">Skill 4</div>
                 </div>
                 <div className="line">
-                    <div className="skill">CloudWatch</div>
-                    <div className="skill">RDS</div>
+                    <div className="skill">Skill 5</div>
+                    <div className="skill">Skill 6</div>
                 </div>
                 <div className="line">
-                    <div className="skill">Step Function</div>
+                    <div className="skill">Skill 7</div>
                 </div>
 
                 <h6 className="courseworkTitle">Soft Skills</h6>

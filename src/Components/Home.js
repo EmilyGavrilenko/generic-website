@@ -19,9 +19,9 @@ class Home extends Component {
                 <div className="textContainer">
                     <div className="textItems">
                         <h3>Hi my name is</h3>
-                        <h1>Emily Gavrilenko</h1>
-                        <h3>and I love learning, exploring, and programming</h3>
-                        <h5>I'm a Computer Science major studying at Cal Poly SLO and I'm interested in Web/App Development, Machine Learning, and Artificial Intelligence</h5>
+                        <h1>Your name here</h1>
+                        <h3>and I love 'Enter your interests here'</h3>
+                        <h5>'Enter personal bio here'</h5>
                         <Button icon labelPosition='right' toggle basic color='black' size='tiny' onClick={this.learnMore}>
                             Learn More
                             <Icon name='right arrow' />

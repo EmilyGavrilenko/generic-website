@@ -3,11 +3,21 @@ import {Navbar, Nav, NavDropdown, Form, FormControl, Button,} from 'react-bootst
 import '../css/About.css';
 
 class Header extends Component {
+	constructor(props) {
+		super(props);
+	}
+
     render() {
+		console.log(this.props.showName)
+		console.log(this.props)
+		const displayName = ( this.props.showName === 'false' ? false : true )
+		console.log(displayName)
+
         return (
             <div className="header">
 				<div class="text-dark">
-					<div className="navBarTitle" >Emily Gavrilenko</div> 
+					{ (displayName == true) && <div className="navBarTitle" >Your name here</div>}
+					{!displayName && <div style={{height: '20px'}} />}
 					<div className="navBar" >
 						<Navbar>
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
