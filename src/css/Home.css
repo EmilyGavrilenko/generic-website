@@ -1,0 +1,49 @@
+.homepage {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+.homepage h1 {
+    position: relative;
+    z-index: 2;
+    color: black;
+    font-weight: 700;
+} 
+.homepage img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 140%;
+    height: auto;
+    opacity: 0.55;
+    z-index: 0.5;
+}
+
+.homepageHeader {
+    position: relative;
+    z-index: 3;
+    opacity: 1.0;
+}
+
+.textContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 90vh;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textItems {
+    text-align: left;
+    color: black;
+    width: 600px;
+}
+
+.homepage h5 {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}

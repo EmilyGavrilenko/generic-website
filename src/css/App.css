@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.body {
+  height: calc(100vh - 50px);
+}
+
+.navBarTitle {
+  font-size: 40px;
+  align-items: left;
+  padding: 15px;
+  font-weight: bold;
+  color: black;
+  display: block;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  margin-bottom: 20px;
+}

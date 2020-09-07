@@ -1,0 +1,42 @@
+.internships {
+    height: calc(100vh - 120px);
+    padding: 20px;
+}
+
+.robomakerLogo {
+    width: 500px;
+}
+
+.jobLine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobBar {
+    margin: 10px 0px;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jobTitle {
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.jobDate {
+    width: 200px;
+    text-align: left;
+}
+
+.contactPg {
+    width: 400px;
+    margin: 20px 200px;
+    text-align: left;
+}
