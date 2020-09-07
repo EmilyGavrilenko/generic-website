@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MyResume from '../resume.pdf';
 import SampleResume from '../sample-resume.pdf';
 import Header from "./Header";
 
